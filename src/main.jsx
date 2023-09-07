@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 // import App from './pages/App.jsx'
 import LandingPage from './pages/LandingPage.jsx'
 import ShopPage from  "./pages/ShopPage.jsx"
+import ContactPage from "./pages/ContactPage.jsx"
+import AboutPage from "./pages/AboutPage.jsx"
 import {BrowserRouter as Router, Routes, Route} from  'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -10,7 +12,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 <Routes>
   
   <Route path= '/' element={<LandingPage/>} />
-  <Route path='/shop' element= {<ShopPage/>} />
+  <Route path= '/shop' element= {<ShopPage/>} />
+  <Route path= '/contact' element={<ContactPage/>}/>
+  <Route path= '/about' element={<AboutPage/>}/>
 </Routes>
   </Router>,
 )
