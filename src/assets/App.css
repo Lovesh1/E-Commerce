@@ -76,6 +76,64 @@ button.white{
   outline: none;
   transition: 0.2s;
 }
+.form{
+  background-image: url(../images/images/Login3.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  /* margin: 3% 25%; */
+  padding: 0;
+  display: flex;
+  border:1px solid #000;
+  box-shadow: 20px 20px 35px rgba(0,0,0,0.03);
+  
+}
+.container{
+  
+    display: flex;
+    flex-direction:column;
+    gap:8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.container input{
+  padding: 5px 8px;
+  border:1px solid #000;
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+}
+
+.container label{
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f0f0f;
+}
+
+.button-container button{
+  padding: 5px 8px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.form li{
+  list-style: none;
+}
+.form li a{
+  text-decoration: none;
+  font-weight: 700;
+  color: #0f0f0f;
+  background-image: url(../images/images/button.png);
+  padding: 14px 80px 14px 65px;
+  border: 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
 
 /* NAVBAR HEADER START */
 

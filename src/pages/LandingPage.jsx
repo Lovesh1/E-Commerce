@@ -14,7 +14,7 @@ const navlinks = [
   {to: '/shop', label: 'Shop', active: false},
   {to: '/contact', label: 'Contact', active: false},
   {to: '/about', label: 'About us', active: false},
-  {to: '#', label: 'Blogs', active: false},
+  {to: '/login', label: 'Login', active: false},
 
 ];
 
